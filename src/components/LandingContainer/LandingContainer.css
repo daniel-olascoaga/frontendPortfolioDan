@@ -1,0 +1,33 @@
+.perfilContainer {
+  background: #135305;
+  border: 1px solid rgba(0, 0, 0,.3);
+  width: 70vw;
+  height: auto;
+  border-radius: 25px 5px 25px 5px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.perfilContainer > h3 {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.perfilContainer > p {
+  text-align: center;
+  color: #D3CBC9;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 520px) {
+  .perfilContainer > h3 {
+    font-size: 1.3rem;
+  }
+
+  .perfilContainer > p {
+    font-size: 0.8rem;
+  }
+}

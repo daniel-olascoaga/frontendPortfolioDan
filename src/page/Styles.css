@@ -1,0 +1,137 @@
+/* Styles of sections home */
+.containerHome {
+  margin: 0;
+}
+
+.containerHome > h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 2vh 0;
+  color: black;
+}
+
+.containerHome > .containerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Styles of sections projects */
+.containerProjects {
+  margin: 0 5vw;
+}
+
+.containerProjects > h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 2vh;
+  color: black;
+} 
+
+.containerProjects > .containerCards{
+  display: grid;
+  place-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem),1fr));
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Styles of sections skills */
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skillsContainer > h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.skillsContainer > .skillBarContainer {
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 1px 1px #d3d3d3d1;
+  border-radius: 15px;
+  margin-bottom: 1.2rem;
+  padding: 0 1rem;
+}
+
+/* Styles of sections contact */
+.contactContainer {
+  height: 100vh;
+  margin-top: 2.2rem;
+}
+
+.contactContainer > section {
+  height: 100%;
+}
+
+.contactContainer > section > img {
+  height: 100%;
+}
+
+/* Styles of sections page error 404 */
+.container_error404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container_error404 > .property_title {
+  text-align: center;
+}
+
+.container_error404 > .property_title > h2 {
+  font-family: 'roboto' sans-serif;
+  font-size: 6rem;
+}
+
+.container_error404 > .property_title > h3 {
+  font-family: 'roboto' sans-serif;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 520px) {
+  /* Styles of sections home */
+  .containerHome > h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Styles of sections projects */
+  .containerProjects > h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Styles of sections skills */
+  .skillsContainer > h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Styles of sections contact */
+.contactContainer {
+  height: 50vh;
+  margin-top: 1.5rem;
+}
+
+  .container_error404 {
+    height: 50vh;
+  }
+
+  .container_error404 > .property_title > h2 {
+    font-size: 2.5rem;
+  }
+
+  .container_error404 > .property_title > h3 {
+    font-size: 1.5rem;
+  }
+}

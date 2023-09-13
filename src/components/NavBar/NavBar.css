@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #24252A;
+  width: auto;
+  height: 15vh;
+}
+
+nav .navLinks {
+  padding: 0;
+  margin: 25px;
+}
+
+nav .navLinks li {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 0;
+}
+
+nav .navLinks li .link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav .navLinks li .link:hover {
+  color: chartreuse;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 520px) {
+  nav {
+    height: 10vh;
+  }
+  nav .navLinks li .link {
+    font-size: 0.7rem;
+  }
+}
+

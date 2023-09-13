@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  padding: 0 0 10px 0;
+  margin: 10px 0;
+  text-align: center;
+  background-color: #24252A;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  border-radius: 7px;
+}
+
+.container h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  padding: 5px 0px;
+  color: aliceblue;
+}
+
+.container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding: 5px 0px;
+  color: aliceblue;
+}
+
+.container .link {
+  text-decoration: none;
+  color: green;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+.container .link:hover {
+  color: chartreuse;
+}
+
+@media screen and (max-width: 520px) {
+  container h4 {
+    font-size: 1rem;
+  }
+  
+  .container p {
+    font-size: 0.7rem;
+  }
+
+  .container .link {
+    font-size: 0.8rem;
+  }
+}
