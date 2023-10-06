@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const skillsApi = axios.create({
-  baseURL: 'http://localhost:8000/api_portfolio/skill/'
+  baseURL: 'https://danolas.pythonanywhere.com/skill/'
 })
 
 export const getAllSkills = () => skillsApi.get('/');
